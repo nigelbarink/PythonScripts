@@ -3,6 +3,8 @@ Helper scripts for common task in python
 
 
 - image-resize.py
+      
+      ```bash
       usage: image-resize.py [-h] [-O OVERWRITE] [-o OUT] path NewWidth NewHeight
 
       Process some image
@@ -18,3 +20,4 @@ Helper scripts for common task in python
                               Causes script to overwrite the original image (out
                               parameter will be ignored if set)
         -o OUT, --out OUT     Set a custom output path
+       ```
